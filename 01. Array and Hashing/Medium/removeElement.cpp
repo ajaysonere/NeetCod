@@ -9,6 +9,10 @@ vector<int> removeElementUsingSet(vector<int>nums){
   return duplicate;
 }
 int main(){
-    cout << "Remove Element" << "\n";
+    vector<int> nums={1,1,2,5,5,5,10,10,20};
+    vector<int>ans = removeElementUsingSet(nums);
+    for(auto x : ans){
+      cout << ans << endl;
+    }
     return 0;
 }
