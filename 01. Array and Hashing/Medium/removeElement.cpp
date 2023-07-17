@@ -8,6 +8,11 @@ vector<int> removeElementUsingSet(vector<int>nums){
   }
   return duplicate;
 }
+
+vector<int>removeElementUsingVec(vector<int>nums){
+    
+}
+
 int main(){
     vector<int> nums={1,1,2,5,5,5,10,10,20};
     vector<int>ans = removeElementUsingSet(nums);
