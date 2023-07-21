@@ -12,7 +12,7 @@ int majorityElement(vector<int> nums){
     }
     return 0;
 }
-
+// function overloading
 int majorityElement(vector<int>nums , int size){
         int count =1;
         int major = nums[0];
