@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<algorithm>
 using namespace std;
 
 vector<int> sortArrayByNaive(vector<int> nums){
@@ -11,6 +12,11 @@ vector<int> sortArrayByNaive(vector<int> nums){
             }
         }
     }
+    return nums;
+}
+
+vector<int> sortArrayByDefaultLib(vector<int> nums){
+    sort(nums.begin() , nums.end());
     return nums;
 }
 
