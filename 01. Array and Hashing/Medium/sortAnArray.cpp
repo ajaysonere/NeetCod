@@ -23,7 +23,7 @@ vector<int> sortArrayByDefaultLib(vector<int> nums){
 int main ()
 {
     vector<int> nums = {1,20,3,5,4,65,32,45,10};
-    vector<int> ans = sortArrayByNaive(nums);
+    vector<int> ans = sortArrayByDefaultLib(nums);
     for(auto x : ans)
        cout << x << " ";
     
