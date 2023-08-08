@@ -26,10 +26,24 @@ int longestConsecutive(vector<int>& nums) {
         return longest;
 }
 
+int longestConsecutiveOp(vector<int> nums){
+        set<int> s(nums.begin() , nums.end());
+        int longest = 0;
+        for(auto i : s){
+            if(s.count(i-1)) continue;
+            int j =1;
+            while(s.count(i+j)){
+                j++;
+            }
+            longest = max(longest , j);
+        }
+        return longest;
+}
+
 int main ()
 {
    vector<int> nums = {100,4,200,1,3,2};
-   int ans = longestConsecutive(nums);
+   int ans = longestConsecutiveOp(nums);
    cout << ans << "\n";
    return 0;
 }
