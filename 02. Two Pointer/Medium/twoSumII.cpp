@@ -23,5 +23,11 @@ using namespace std;
 
 int main ()
 {
+    vector<int> nums = {10,2,0,30,40,50,20,30};
+    int target = 10;
+    vector<int>ans = twoSum(nums , target);
+    for(int i=0; i<nums.size(); i++){
+        cout << nums[i] << " ";
+    }
     return 0;
 }
