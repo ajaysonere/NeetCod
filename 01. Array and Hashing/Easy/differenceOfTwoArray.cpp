@@ -3,5 +3,6 @@ using namespace std;
 
 int main ()
 {
-return 0;
+    cout << "Differece of two array";
+    return 0;
 }
