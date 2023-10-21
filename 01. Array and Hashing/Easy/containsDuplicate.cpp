@@ -10,7 +10,7 @@ bool containsDuplicate(vector<int>vec){
 
 int main ()
 {
-    vector<int> vec = {10,20,30,40,50 , 50};
+    vector<int> vec = {10,20,30,40,50 ,60};
     if(containsDuplicate(vec)){
         cout<< "Duplicate Present " << "\n";
     }else{
